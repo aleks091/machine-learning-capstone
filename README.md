@@ -1,5 +1,8 @@
 # machine-learning-capstone
-CNNs to predict OCT scans diagnosis
+CNNs to predict diagnosis in OCT scans
+
+##### Capstone Proposal Review
+- https://review.udacity.com/#!/reviews/1219487
 
 ## Software and Libraries
 - Keras v2.1.6
