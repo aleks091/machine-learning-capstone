@@ -1,0 +1,107 @@
+First test accuracy: 56.5000%
+
+https://github.com/keras-team/keras/issues/5326
+
+
+References
+	https://keras.io/applications/#usage-examples-for-image-classification-models
+	ROC Curve: https://hackernoon.com/simple-guide-on-how-to-generate-roc-plot-for-keras-classifier-2ecc6c73115a 
+	Fine-Tunning: https://www.learnopencv.com/keras-tutorial-fine-tuning-using-pre-trained-models/
+	Transfer Learning: https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
+	
+Models to test:
+
+	InceptionV3
+	VGG-19
+	ResNet-50
+	Xception
+
+	
+Benchmark Model
+
+
+	
+	
+InceptionV3 Transfer Learning Results.
+
+	Freezing the first 249 layers with an additional 
+		GlobalAveragePooling2D 
+		Dense(1024, activation='relu')(x) 
+		Dense(4, activation='softmax')(x)
+		
+	First run produced an accuracy result of 47.7639%
+	Second run produce an accuracy result of 53.1306% val_loss did not improve from 2.60438
+	Third run produce an accuracy result of 50%
+	Fourth run produce an accuracy result of 51.6995% val_loss did not improve from 2.60749
+	
+	
+	Next Steps
+	    Print ROC curve for model - Done - InceptionV3.png
+			Plot the model 
+				from keras.utils import plot_model
+				plot_model(model, to_file='InceptionV3.png')
+			
+		Unfreeze all 249 layers - measure accuracy - RESOURCE EXHAUSTED NEEDED TO RESTART NOTEBOOK !!!
+			Did restarning notebook fix the problem ?
+				No, ResourceExhaustedError - this is problably due to unfreezing all the layers. 
+		
+		Unfreeze 50 top layers
+		
+			First run produced an accuracy result of 42.7549% val_loss did not improve from 2.19249
+		
+			Did training time increase ? 
+				Yes.			
+			Does the accuracy improve ? 	
+				No, then leave layers frozen and test with more convolutional layers at the output
+					
+		Freeze ALL layers
+		
+			First run produced an accuracy result of 51.3417% val_loss did not improve from 2.19249
+			
+			Did training time increase ? 
+				Training time was reduced compared to unfreezing 50 more of the top layers
+			
+			Does the accuracy improve ? 
+				A little bit compare to unfreezing 50 more of the top layers.
+				Default behavior still seems to produce the best accuracy with an acceptable training time. 
+		
+		Add more convolutional layers at the output - measure accuracy
+		
+			COULD NOT ADD MORE LAYERS --- INPUTS WHERE WRONG 
+		
+			First run produced an accuracy result of ------ val_loss did not improve from ------
+			
+			Did training time increase ? 
+			
+			Does the accuracy improve ? 
+			
+		Add more TRAINING images: 
+			Train on 1375 samples, validate on 938 samples. Increased from 1184 training samples
+			
+			Added input_shape=(224, 224, 3) to base model
+				
+			First run produced an accuracy result of ---  val_loss did not improve from 1.59703
+			
+		Increased samples and 100 epochs
+			val_loss did not improve from 1.97568
+			Test accuracy: 39.2000%
+			Test accuracy: 46.8000%
+			
+			Train on 5082 samples, validate on 938 samples
+			Test accuracy: 49.0000%
+			
+			Freezing 200 layers only
+			Test accuracy: 49.8000%
+			
+			Freezing 150 layers only
+			Test accuracy: 34%
+			
+			
+			
+		Add Data augmentation
+		
+		
+
+		
+		
+	
