@@ -9,8 +9,9 @@
 
 dogImages/*
 OCT2017/*
-OCT2017-R/*
-OCT2017-R2/*
+OCT2017-REDUCEDSET-V1/*
+OCT2017-REDUCEDSET-V2/*
+OCT2017-RESIZED-V1/*
 preview/*
 bottleneck_features/*
 saved_models/*
