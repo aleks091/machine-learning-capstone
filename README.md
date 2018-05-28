@@ -1,5 +1,6 @@
-# machine-learning-capstone
-CNNs to predict diagnosis in OCT scans
+# CNNs based analysis to predict diagnosis in Optical Coherence Tomography (OCT) scans
+
+....Brief introduction....
 
 #### Capstone Proposal
 
