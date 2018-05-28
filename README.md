@@ -1,7 +1,12 @@
 # machine-learning-capstone
 CNNs to predict diagnosis in OCT scans
 
-##### Capstone Proposal Review
+#### Capstone Proposal
+
+Capstone proposal document can be found here: 
+- https://github.com/aleks091/machine-learning-capstone/blob/master/Capstone%20Proposal.pdf
+
+Capstone proposal review can be found here:
 - https://review.udacity.com/#!/reviews/1219487
 
 ## Software and Libraries
