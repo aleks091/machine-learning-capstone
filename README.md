@@ -1,7 +1,7 @@
 # machine-learning-capstone
 CNNs to predict OCT scans diagnosis
 
-##software and libraries
+## Software and Libraries
 - Keras
 - TensorFlow
 - CUDA
