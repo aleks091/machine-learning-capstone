@@ -1,6 +1,21 @@
 # CNNs based analysis to predict diagnosis in Optical Coherence Tomography (OCT) scans
 
-....Brief introduction....
+Project structure:
+
+This project had to be divided into 2 different jupyter notebooks.
+Benchmark.ipynb and InceptionV3.ipynb 
+
+Benchmark.ipynb contains the benchmark model and InceptionV3.ipynb contains the optimized transfer learning model. 
+
+- Reduced dataset to run this project can be found here: https://drive.google.com/file/d/1alCo05os-s1I1OljXoFjvO1Ik0ikleiG/view?usp=sharing
+
+- Relevant files:
+	- Capstone Proposal.pdf
+	- Benchmark.ipynb 
+	- Benchmark.html
+	- InceptionV3.ipynb
+	- InceptionV3.html
+	- Capstone project report.pdf
 
 #### Capstone Proposal
 
