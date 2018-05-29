@@ -90,11 +90,11 @@ InceptionV3 Transfer Learning Results.
 			Train on 5082 samples, validate on 938 samples
 			Test accuracy: 49.0000%
 			
-			Freezing 200 layers only
-			Test accuracy: 49.8000%
+			Freezing 249 layers only
+			Test accuracy: 50.1000%
 			
-			Freezing 150 layers only
-			Test accuracy: 34%
+			Freezing 200 layers only
+			Test accuracy: 
 			
 			
 			
