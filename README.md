@@ -17,6 +17,13 @@ Benchmark.ipynb contains the benchmark model and InceptionV3.ipynb contains the 
 	- InceptionV3.html
 	- Capstone project report.pdf
 
+## Capstone Report
+
+The capstone report format follows the template provided by Udacity 
+
+The capstone report is part of this repository here is the link: https://github.com/aleks091/machine-learning-capstone/blob/master/Capstone%20project%20report.pdf
+
+	
 ## Capstone Proposal
 
 Capstone proposal document can be found here: 
