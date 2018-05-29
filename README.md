@@ -17,7 +17,7 @@ Benchmark.ipynb contains the benchmark model and InceptionV3.ipynb contains the 
 	- InceptionV3.html
 	- Capstone project report.pdf
 
-#### Capstone Proposal
+## Capstone Proposal
 
 Capstone proposal document can be found here: 
 - https://github.com/aleks091/machine-learning-capstone/blob/master/Capstone%20Proposal.pdf
@@ -32,20 +32,3 @@ Capstone proposal review can be found here:
 - Python v3.6.2
 - Jupyter Notebook v5.4.0
 
-## Data acquisition
-
-Kaggle was my starting point for deciding the topic of my capstone project.
-Here I reasearched datasets belonging to the medical field, and the Retinal OCT Images piqued my interest.
-
-While Kaggle was a good starting point for this project, it didn't provid the full dataset that I needed to successfully create the benchmark nor the transfer learning models.
-
-Therefore, after researching the internet I found the full dataset in the Mendeley.com website cited below. 
-
-
-### Kaggle
-#### Retinal OCT Images (optical coherence tomography)
-- https://www.kaggle.com/paultimothymooney/kermany2018
-
-### Mendeley
-#### Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification
-- https://data.mendeley.com/datasets/rscbjbr9sj/2
