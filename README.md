@@ -1,6 +1,6 @@
 # CNNs based analysis to predict diagnosis in Optical Coherence Tomography (OCT) scans
 
-Project structure:
+### Project structure:
 
 This project had to be divided into 2 different jupyter notebooks.
 Benchmark.ipynb and InceptionV3.ipynb 
