@@ -10,7 +10,7 @@ Benchmark.ipynb contains the benchmark model and InceptionV3.ipynb contains the 
 - Reduced dataset to run this project can be found here: https://drive.google.com/file/d/1alCo05os-s1I1OljXoFjvO1Ik0ikleiG/view?usp=sharing
 
 - Relevant files:
-	- Capstone Proposal.pdf
+	- proposal.pdf
 	- Benchmark.ipynb 
 	- Benchmark.html
 	- InceptionV3.ipynb
